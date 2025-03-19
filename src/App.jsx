@@ -1,10 +1,14 @@
 import Header from './Header.jsx'
-// import './App.css'
+import Navigation from './Navigation.jsx'
+import './assets/colors.css'
+import './assets/App.css'
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header>
+        <Navigation></Navigation>
+      </Header>
     </>
   )
 }

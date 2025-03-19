@@ -1,7 +1,10 @@
-function Header() {
+import './assets/Header.css'
+
+function Header({ children }) {
     return (
         <div id="header">
-            <p>The header</p>
+            <h2>Lernantino</h2>
+            {children}
         </div>
     )
 }
