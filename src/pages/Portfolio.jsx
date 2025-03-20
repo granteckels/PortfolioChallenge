@@ -1,6 +1,15 @@
+import Project from "../components/Project.jsx"
+
 function Portfolio() {
     return (
-        <p>Portfolio</p>
+        <>
+            <h2>Portfolio</h2>
+            <ul id="projects">
+                <Project />
+                <Project />
+                <Project />
+            </ul>
+        </>
     )
 }
 
