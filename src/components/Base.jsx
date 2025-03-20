@@ -1,6 +1,7 @@
+import { Outlet } from 'react-router-dom'
+
 import Header from './Header'
 import Navigation from './Navigation'
-import Content from './Content'
 import Footer from './Footer'
 import '../assets/colors.css'
 import '../assets/Base.css'
@@ -11,7 +12,7 @@ function Base() {
         <Header>
             <Navigation></Navigation>
         </Header>
-        <Content />
+        <Outlet />
         <Footer />
         </>
     )
