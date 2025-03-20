@@ -14,7 +14,14 @@ nav ul {
     margin: 0;
 }
 
+nav ul a {
+    text-decoration: unset;
+}
+
 a.navLinks {
     color: unset;
-    text-decoration: unset;
+}
+
+a.navLinksCurrent {
+    color: var(--navLinkText);
 }
