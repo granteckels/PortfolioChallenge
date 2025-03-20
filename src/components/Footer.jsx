@@ -6,9 +6,9 @@ import StackOverflowLogo from '../assets/stackoverflow-icon.svg'
 function Footer() {
     return (
         <div id="footer">
-            <img src={GitHubLogo} width="50" height="50" />
-            <img src={LinkedInLogo} width="50" height="50" />
-            <img src={StackOverflowLogo} width="50" height="50" />
+            <a href=""><img src={GitHubLogo} width="50" height="50" /></a>
+            <a href=""><img src={LinkedInLogo} width="50" height="50" /></a>
+            <a href=""><img src={StackOverflowLogo} width="50" height="50" /></a>
         </div>
     )
 }
