@@ -12,7 +12,9 @@ function Base() {
         <Header>
             <Navigation></Navigation>
         </Header>
-        <Outlet />
+        <div id="content">
+            <Outlet />
+        </div>
         <Footer />
         </>
     )
