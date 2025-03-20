@@ -1,18 +1,11 @@
-import Header from './Header.jsx'
-import Navigation from './Navigation.jsx'
-import Content from './Content.jsx'
-import Footer from './Footer.jsx'
-import './assets/colors.css'
-import './assets/App.css'
+import Base from './components/Base'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header>
-        <Navigation></Navigation>
-      </Header>
-      <Content />
-      <Footer />
+      <Base />
     </>
   )
 }

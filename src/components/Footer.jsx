@@ -1,7 +1,7 @@
-import './assets/Footer.css'
-import GitHubLogo from './assets/github-icon.svg'
-import LinkedInLogo from './assets/linkedin-icon.svg'
-import StackOverflowLogo from './assets/stackoverflow-icon.svg'
+import '../assets/Footer.css'
+import GitHubLogo from '../assets/github-icon.svg'
+import LinkedInLogo from '../assets/linkedin-icon.svg'
+import StackOverflowLogo from '../assets/stackoverflow-icon.svg'
 
 function Footer() {
     return (

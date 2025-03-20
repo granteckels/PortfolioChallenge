@@ -1,4 +1,4 @@
-import './assets/Header.css'
+import '../assets/Header.css'
 
 function Header({ children }) {
     return (
