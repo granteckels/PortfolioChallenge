@@ -45,7 +45,7 @@ function Contact() {
 
     return (
         <>
-            <h2>Contact</h2>
+            <h2 id="contactHeader">Contact</h2>
             <form className="pure-form pure-form-stacked" onSubmit={handleSubmit}>
                 <fieldset>
                     <label htmlFor="name">Name</label>
