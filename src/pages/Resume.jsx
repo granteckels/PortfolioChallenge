@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+
 function Resume() {
     return (
         <>
             <h2>Resume</h2>
-            <p>Download my <a href="">resume</a></p>
+            <p>Download my <Link to="">resume</Link></p>
             <h3>Front-end Proficiencies</h3>
             <ul>
                 <li>JavaScript</li>
